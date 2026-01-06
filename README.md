@@ -1,29 +1,29 @@
-Plataforma de Postulación a Vacantes de Empleabilidad - Riwi
-Desarrollador: [Tu Nombre Completo Aquí]
-Descripción
+## Plataforma de Postulación a Vacantes de Empleabilidad - Riwi
+
+# Descripción
+
 API REST desarrollada con Node.js y NestJS para gestionar vacantes de empleabilidad y postulaciones de coders. Permite a los gestores publicar vacantes y a los coders postularse de manera autónoma con control de acceso por roles.
-🚀 Tecnologías Utilizadas
 
-Backend Framework: NestJS
-Base de Datos: PostgreSQL
-ORM: TypeORM
-Autenticación: JWT + API Key
-Documentación: Swagger
-Testing: Jest
-Frontend: HTML, CSS (Tailwind CSS), JavaScript Vanilla
-Containerización: Docker & Docker Compose
+## 🚀 Tecnologías Utilizadas
 
-📋 Características Principales
+- Backend Framework: NestJS
+- Base de Datos: PostgreSQL
+- ORM: TypeORM
+- Autenticación: JWT 
+- Documentación: Swagger
+- Testing: Jest
+
+## Características Principales
+
 Autenticación y Autorización
 
 Sistema de registro e inicio de sesión con JWT
-Protección de endpoints con API Key
-Control de acceso basado en roles (Admin, Manager, Coder)
+Control de acceso basado en roles (Admin, Gestor, Coder)
 Guards personalizados para manejo de permisos
 
 Gestión de Vacantes
 
-Creación y administración de vacantes (Admin/Manager)
+Creación y administración de vacantes (Admin/Gestor)
 Listado de vacantes con filtros por tecnología y seniority
 Control de cupos máximos de aspirantes
 Activación/desactivación de vacantes
